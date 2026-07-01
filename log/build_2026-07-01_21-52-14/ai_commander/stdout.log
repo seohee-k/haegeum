@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/ai_commander/ai_commander.egg-info
+writing ../../build/ai_commander/ai_commander.egg-info/PKG-INFO
+writing dependency_links to ../../build/ai_commander/ai_commander.egg-info/dependency_links.txt
+writing requirements to ../../build/ai_commander/ai_commander.egg-info/requires.txt
+writing top-level names to ../../build/ai_commander/ai_commander.egg-info/top_level.txt
+writing manifest file '../../build/ai_commander/ai_commander.egg-info/SOURCES.txt'
+reading manifest file '../../build/ai_commander/ai_commander.egg-info/SOURCES.txt'
+writing manifest file '../../build/ai_commander/ai_commander.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kimseohee/haegeum_ws/build/ai_commander/build
+creating /home/kimseohee/haegeum_ws/build/ai_commander/build/lib
+creating /home/kimseohee/haegeum_ws/build/ai_commander/build/lib/ai_commander
+copying ai_commander/__init__.py -> /home/kimseohee/haegeum_ws/build/ai_commander/build/lib/ai_commander
+running install
+running install_lib
+creating /home/kimseohee/haegeum_ws/install/ai_commander/lib/python3.12/site-packages/ai_commander
+copying /home/kimseohee/haegeum_ws/build/ai_commander/build/lib/ai_commander/__init__.py -> /home/kimseohee/haegeum_ws/install/ai_commander/lib/python3.12/site-packages/ai_commander
+byte-compiling /home/kimseohee/haegeum_ws/install/ai_commander/lib/python3.12/site-packages/ai_commander/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/kimseohee/haegeum_ws/install/ai_commander/share/ament_index
+creating /home/kimseohee/haegeum_ws/install/ai_commander/share/ament_index/resource_index
+creating /home/kimseohee/haegeum_ws/install/ai_commander/share/ament_index/resource_index/packages
+copying resource/ai_commander -> /home/kimseohee/haegeum_ws/install/ai_commander/share/ament_index/resource_index/packages
+copying package.xml -> /home/kimseohee/haegeum_ws/install/ai_commander/share/ai_commander
+running install_egg_info
+Copying ../../build/ai_commander/ai_commander.egg-info to /home/kimseohee/haegeum_ws/install/ai_commander/lib/python3.12/site-packages/ai_commander-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/kimseohee/haegeum_ws/build/ai_commander/install.log'

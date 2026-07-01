@@ -1,0 +1,32 @@
+[1.741s] Invoking command in '/home/kimseohee/haegeum_ws/src/ai_commander': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kimseohee/haegeum_ws/build/ai_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimseohee/haegeum_ws/install/ai_commander/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_commander build --build-base /home/kimseohee/haegeum_ws/build/ai_commander/build install --record /home/kimseohee/haegeum_ws/build/ai_commander/install.log --single-version-externally-managed install_data
+[1.939s] running egg_info
+[1.939s] creating ../../build/ai_commander/ai_commander.egg-info
+[1.952s] writing ../../build/ai_commander/ai_commander.egg-info/PKG-INFO
+[1.952s] writing dependency_links to ../../build/ai_commander/ai_commander.egg-info/dependency_links.txt
+[1.952s] writing requirements to ../../build/ai_commander/ai_commander.egg-info/requires.txt
+[1.952s] writing top-level names to ../../build/ai_commander/ai_commander.egg-info/top_level.txt
+[1.952s] writing manifest file '../../build/ai_commander/ai_commander.egg-info/SOURCES.txt'
+[1.978s] reading manifest file '../../build/ai_commander/ai_commander.egg-info/SOURCES.txt'
+[1.978s] writing manifest file '../../build/ai_commander/ai_commander.egg-info/SOURCES.txt'
+[1.978s] running build
+[1.978s] running build_py
+[1.978s] creating /home/kimseohee/haegeum_ws/build/ai_commander/build
+[1.978s] creating /home/kimseohee/haegeum_ws/build/ai_commander/build/lib
+[1.979s] creating /home/kimseohee/haegeum_ws/build/ai_commander/build/lib/ai_commander
+[1.979s] copying ai_commander/__init__.py -> /home/kimseohee/haegeum_ws/build/ai_commander/build/lib/ai_commander
+[1.979s] running install
+[1.983s] running install_lib
+[1.995s] creating /home/kimseohee/haegeum_ws/install/ai_commander/lib/python3.12/site-packages/ai_commander
+[1.996s] copying /home/kimseohee/haegeum_ws/build/ai_commander/build/lib/ai_commander/__init__.py -> /home/kimseohee/haegeum_ws/install/ai_commander/lib/python3.12/site-packages/ai_commander
+[1.996s] byte-compiling /home/kimseohee/haegeum_ws/install/ai_commander/lib/python3.12/site-packages/ai_commander/__init__.py to __init__.cpython-312.pyc
+[1.996s] running install_data
+[1.996s] creating /home/kimseohee/haegeum_ws/install/ai_commander/share/ament_index
+[1.996s] creating /home/kimseohee/haegeum_ws/install/ai_commander/share/ament_index/resource_index
+[1.996s] creating /home/kimseohee/haegeum_ws/install/ai_commander/share/ament_index/resource_index/packages
+[1.996s] copying resource/ai_commander -> /home/kimseohee/haegeum_ws/install/ai_commander/share/ament_index/resource_index/packages
+[1.996s] copying package.xml -> /home/kimseohee/haegeum_ws/install/ai_commander/share/ai_commander
+[1.996s] running install_egg_info
+[2.011s] Copying ../../build/ai_commander/ai_commander.egg-info to /home/kimseohee/haegeum_ws/install/ai_commander/lib/python3.12/site-packages/ai_commander-0.0.0-py3.12.egg-info
+[2.012s] running install_scripts
+[2.112s] writing list of installed files to '/home/kimseohee/haegeum_ws/build/ai_commander/install.log'
+[2.147s] Invoked command in '/home/kimseohee/haegeum_ws/src/ai_commander' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kimseohee/haegeum_ws/build/ai_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimseohee/haegeum_ws/install/ai_commander/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_commander build --build-base /home/kimseohee/haegeum_ws/build/ai_commander/build install --record /home/kimseohee/haegeum_ws/build/ai_commander/install.log --single-version-externally-managed install_data

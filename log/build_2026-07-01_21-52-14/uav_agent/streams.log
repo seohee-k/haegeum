@@ -1,0 +1,37 @@
+[0.461s] Invoking command in '/home/kimseohee/haegeum_ws/src/uav_agent': AMENT_PREFIX_PATH=/home/kimseohee/haegeum_ws/install/haegeum_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimseohee/haegeum_ws/install/haegeum_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimseohee/haegeum_ws/build/uav_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimseohee/haegeum_ws/install/uav_agent/lib/python3.12/site-packages:/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uav_agent build --build-base /home/kimseohee/haegeum_ws/build/uav_agent/build install --record /home/kimseohee/haegeum_ws/build/uav_agent/install.log --single-version-externally-managed install_data
+[0.602s] running egg_info
+[0.602s] creating ../../build/uav_agent/uav_agent.egg-info
+[0.611s] writing ../../build/uav_agent/uav_agent.egg-info/PKG-INFO
+[0.611s] writing dependency_links to ../../build/uav_agent/uav_agent.egg-info/dependency_links.txt
+[0.612s] writing entry points to ../../build/uav_agent/uav_agent.egg-info/entry_points.txt
+[0.612s] writing requirements to ../../build/uav_agent/uav_agent.egg-info/requires.txt
+[0.612s] writing top-level names to ../../build/uav_agent/uav_agent.egg-info/top_level.txt
+[0.612s] writing manifest file '../../build/uav_agent/uav_agent.egg-info/SOURCES.txt'
+[0.633s] reading manifest file '../../build/uav_agent/uav_agent.egg-info/SOURCES.txt'
+[0.633s] writing manifest file '../../build/uav_agent/uav_agent.egg-info/SOURCES.txt'
+[0.633s] running build
+[0.633s] running build_py
+[0.633s] creating /home/kimseohee/haegeum_ws/build/uav_agent/build
+[0.633s] creating /home/kimseohee/haegeum_ws/build/uav_agent/build/lib
+[0.633s] creating /home/kimseohee/haegeum_ws/build/uav_agent/build/lib/uav_agent
+[0.633s] copying uav_agent/uav_agent.py -> /home/kimseohee/haegeum_ws/build/uav_agent/build/lib/uav_agent
+[0.633s] copying uav_agent/__init__.py -> /home/kimseohee/haegeum_ws/build/uav_agent/build/lib/uav_agent
+[0.634s] running install
+[0.637s] running install_lib
+[0.647s] creating /home/kimseohee/haegeum_ws/install/uav_agent/lib/python3.12/site-packages/uav_agent
+[0.647s] copying /home/kimseohee/haegeum_ws/build/uav_agent/build/lib/uav_agent/uav_agent.py -> /home/kimseohee/haegeum_ws/install/uav_agent/lib/python3.12/site-packages/uav_agent
+[0.647s] copying /home/kimseohee/haegeum_ws/build/uav_agent/build/lib/uav_agent/__init__.py -> /home/kimseohee/haegeum_ws/install/uav_agent/lib/python3.12/site-packages/uav_agent
+[0.647s] byte-compiling /home/kimseohee/haegeum_ws/install/uav_agent/lib/python3.12/site-packages/uav_agent/uav_agent.py to uav_agent.cpython-312.pyc
+[0.648s] byte-compiling /home/kimseohee/haegeum_ws/install/uav_agent/lib/python3.12/site-packages/uav_agent/__init__.py to __init__.cpython-312.pyc
+[0.648s] running install_data
+[0.648s] creating /home/kimseohee/haegeum_ws/install/uav_agent/share/ament_index
+[0.648s] creating /home/kimseohee/haegeum_ws/install/uav_agent/share/ament_index/resource_index
+[0.648s] creating /home/kimseohee/haegeum_ws/install/uav_agent/share/ament_index/resource_index/packages
+[0.648s] copying resource/uav_agent -> /home/kimseohee/haegeum_ws/install/uav_agent/share/ament_index/resource_index/packages
+[0.648s] copying package.xml -> /home/kimseohee/haegeum_ws/install/uav_agent/share/uav_agent
+[0.649s] running install_egg_info
+[0.659s] Copying ../../build/uav_agent/uav_agent.egg-info to /home/kimseohee/haegeum_ws/install/uav_agent/lib/python3.12/site-packages/uav_agent-0.0.0-py3.12.egg-info
+[0.660s] running install_scripts
+[0.738s] Installing uav_agent script to /home/kimseohee/haegeum_ws/install/uav_agent/lib/uav_agent
+[0.739s] writing list of installed files to '/home/kimseohee/haegeum_ws/build/uav_agent/install.log'
+[0.758s] Invoked command in '/home/kimseohee/haegeum_ws/src/uav_agent' returned '0': AMENT_PREFIX_PATH=/home/kimseohee/haegeum_ws/install/haegeum_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimseohee/haegeum_ws/install/haegeum_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimseohee/haegeum_ws/build/uav_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimseohee/haegeum_ws/install/uav_agent/lib/python3.12/site-packages:/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uav_agent build --build-base /home/kimseohee/haegeum_ws/build/uav_agent/build install --record /home/kimseohee/haegeum_ws/build/uav_agent/install.log --single-version-externally-managed install_data

@@ -1,0 +1,42 @@
+[0.573s] Invoking command in '/home/kimseohee/haegeum_ws/build/mission_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kimseohee/haegeum_ws/src/mission_manager -DCMAKE_INSTALL_PREFIX=/home/kimseohee/haegeum_ws/install/mission_manager
+[0.979s] -- The C compiler identification is GNU 13.3.0
+[0.979s] -- The CXX compiler identification is GNU 13.3.0
+[0.979s] -- Detecting C compiler ABI info
+[0.979s] -- Detecting C compiler ABI info - done
+[0.979s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.979s] -- Detecting C compile features
+[0.979s] -- Detecting C compile features - done
+[0.979s] -- Detecting CXX compiler ABI info
+[0.979s] -- Detecting CXX compiler ABI info - done
+[0.979s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.979s] -- Detecting CXX compile features
+[0.979s] -- Detecting CXX compile features - done
+[0.979s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.988s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.084s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.198s] -- Added test 'lint_cmake' to check CMake code style
+[1.200s] -- Added test 'xmllint' to check XML markup files
+[1.202s] -- Configuring done (0.6s)
+[1.204s] -- Generating done (0.0s)
+[1.205s] -- Build files have been written to: /home/kimseohee/haegeum_ws/build/mission_manager
+[1.210s] Invoked command in '/home/kimseohee/haegeum_ws/build/mission_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kimseohee/haegeum_ws/src/mission_manager -DCMAKE_INSTALL_PREFIX=/home/kimseohee/haegeum_ws/install/mission_manager
+[1.211s] Invoking command in '/home/kimseohee/haegeum_ws/build/mission_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kimseohee/haegeum_ws/build/mission_manager -- -j16 -l16
+[1.253s] Invoked command in '/home/kimseohee/haegeum_ws/build/mission_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kimseohee/haegeum_ws/build/mission_manager -- -j16 -l16
+[1.263s] Invoking command in '/home/kimseohee/haegeum_ws/build/mission_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kimseohee/haegeum_ws/build/mission_manager
+[1.273s] -- Install configuration: ""
+[1.273s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/ament_index/resource_index/package_run_dependencies/mission_manager
+[1.273s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/ament_index/resource_index/parent_prefix_path/mission_manager
+[1.273s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/environment/ament_prefix_path.sh
+[1.273s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/environment/ament_prefix_path.dsv
+[1.274s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/environment/path.sh
+[1.274s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/environment/path.dsv
+[1.274s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/local_setup.bash
+[1.274s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/local_setup.sh
+[1.274s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/local_setup.zsh
+[1.274s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/local_setup.dsv
+[1.274s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/package.dsv
+[1.275s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/ament_index/resource_index/packages/mission_manager
+[1.275s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/cmake/mission_managerConfig.cmake
+[1.275s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/cmake/mission_managerConfig-version.cmake
+[1.275s] -- Installing: /home/kimseohee/haegeum_ws/install/mission_manager/share/mission_manager/package.xml
+[1.277s] Invoked command in '/home/kimseohee/haegeum_ws/build/mission_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kimseohee/haegeum_ws/build/mission_manager

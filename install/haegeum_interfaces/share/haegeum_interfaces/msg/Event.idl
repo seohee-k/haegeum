@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from haegeum_interfaces/msg/Event.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module haegeum_interfaces {
+  module msg {
+    struct Event {
+      builtin_interfaces::msg::Time stamp;
+
+      string event_type;
+
+      string source;
+
+      string detail;
+    };
+  };
+};

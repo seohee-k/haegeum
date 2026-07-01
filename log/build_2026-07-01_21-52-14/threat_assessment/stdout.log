@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/threat_assessment/threat_assessment.egg-info
+writing ../../build/threat_assessment/threat_assessment.egg-info/PKG-INFO
+writing dependency_links to ../../build/threat_assessment/threat_assessment.egg-info/dependency_links.txt
+writing requirements to ../../build/threat_assessment/threat_assessment.egg-info/requires.txt
+writing top-level names to ../../build/threat_assessment/threat_assessment.egg-info/top_level.txt
+writing manifest file '../../build/threat_assessment/threat_assessment.egg-info/SOURCES.txt'
+reading manifest file '../../build/threat_assessment/threat_assessment.egg-info/SOURCES.txt'
+writing manifest file '../../build/threat_assessment/threat_assessment.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kimseohee/haegeum_ws/build/threat_assessment/build
+creating /home/kimseohee/haegeum_ws/build/threat_assessment/build/lib
+creating /home/kimseohee/haegeum_ws/build/threat_assessment/build/lib/threat_assessment
+copying threat_assessment/__init__.py -> /home/kimseohee/haegeum_ws/build/threat_assessment/build/lib/threat_assessment
+running install
+running install_lib
+creating /home/kimseohee/haegeum_ws/install/threat_assessment/lib/python3.12/site-packages/threat_assessment
+copying /home/kimseohee/haegeum_ws/build/threat_assessment/build/lib/threat_assessment/__init__.py -> /home/kimseohee/haegeum_ws/install/threat_assessment/lib/python3.12/site-packages/threat_assessment
+byte-compiling /home/kimseohee/haegeum_ws/install/threat_assessment/lib/python3.12/site-packages/threat_assessment/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/kimseohee/haegeum_ws/install/threat_assessment/share/ament_index
+creating /home/kimseohee/haegeum_ws/install/threat_assessment/share/ament_index/resource_index
+creating /home/kimseohee/haegeum_ws/install/threat_assessment/share/ament_index/resource_index/packages
+copying resource/threat_assessment -> /home/kimseohee/haegeum_ws/install/threat_assessment/share/ament_index/resource_index/packages
+copying package.xml -> /home/kimseohee/haegeum_ws/install/threat_assessment/share/threat_assessment
+running install_egg_info
+Copying ../../build/threat_assessment/threat_assessment.egg-info to /home/kimseohee/haegeum_ws/install/threat_assessment/lib/python3.12/site-packages/threat_assessment-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/kimseohee/haegeum_ws/build/threat_assessment/install.log'

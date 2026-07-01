@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/assignment__type_support.c.o"
+  "CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/assignment__type_support.c.o.d"
+  "CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/battlefield_state__type_support.c.o"
+  "CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/battlefield_state__type_support.c.o.d"
+  "CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/event__type_support.c.o"
+  "CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/event__type_support.c.o.d"
+  "CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/robot_status__type_support.c.o"
+  "CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/robot_status__type_support.c.o.d"
+  "CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/target__type_support.c.o"
+  "CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/target__type_support.c.o.d"
+  "libhaegeum_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libhaegeum_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/assignment__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/assignment__type_support.c"
+  "rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/battlefield_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/battlefield_state__type_support.c"
+  "rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/event__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/event__type_support.c"
+  "rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/robot_status__type_support.c"
+  "rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/target__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

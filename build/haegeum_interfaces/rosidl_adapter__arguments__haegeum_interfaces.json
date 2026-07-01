@@ -1,0 +1,10 @@
+{
+  "package_name": "haegeum_interfaces",
+  "non_idl_tuples": [
+    "/home/kimseohee/haegeum_ws/src/haegeum_interfaces:msg/RobotStatus.msg",
+    "/home/kimseohee/haegeum_ws/src/haegeum_interfaces:msg/Target.msg",
+    "/home/kimseohee/haegeum_ws/src/haegeum_interfaces:msg/Assignment.msg",
+    "/home/kimseohee/haegeum_ws/src/haegeum_interfaces:msg/Event.msg",
+    "/home/kimseohee/haegeum_ws/src/haegeum_interfaces:msg/BattlefieldState.msg"
+  ]
+}

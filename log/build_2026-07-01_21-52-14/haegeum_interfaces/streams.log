@@ -1,0 +1,377 @@
+[0.048s] Invoking command in '/home/kimseohee/haegeum_ws/build/haegeum_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kimseohee/haegeum_ws/src/haegeum_interfaces -DCMAKE_INSTALL_PREFIX=/home/kimseohee/haegeum_ws/install/haegeum_interfaces
+[0.997s] -- The C compiler identification is GNU 13.3.0
+[0.998s] -- The CXX compiler identification is GNU 13.3.0
+[0.998s] -- Detecting C compiler ABI info
+[0.998s] -- Detecting C compiler ABI info - done
+[0.998s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.998s] -- Detecting C compile features
+[0.998s] -- Detecting C compile features - done
+[0.998s] -- Detecting CXX compiler ABI info
+[0.998s] -- Detecting CXX compiler ABI info - done
+[0.999s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.999s] -- Detecting CXX compile features
+[0.999s] -- Detecting CXX compile features - done
+[0.999s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.999s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.999s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.999s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.999s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.999s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.999s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.370s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.353s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.358s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.461s] -- Found PythonExtra: /usr/bin/python3  
+[2.792s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.871s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.879s] -- Configuring done (2.8s)
+[2.909s] -- Generating done (0.0s)
+[2.917s] -- Build files have been written to: /home/kimseohee/haegeum_ws/build/haegeum_interfaces
+[2.929s] Invoked command in '/home/kimseohee/haegeum_ws/build/haegeum_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kimseohee/haegeum_ws/src/haegeum_interfaces -DCMAKE_INSTALL_PREFIX=/home/kimseohee/haegeum_ws/install/haegeum_interfaces
+[2.930s] Invoking command in '/home/kimseohee/haegeum_ws/build/haegeum_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kimseohee/haegeum_ws/build/haegeum_interfaces -- -j16 -l16
+[2.986s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.986s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.994s] [  2%] Built target ament_cmake_python_copy_haegeum_interfaces
+[3.135s] running egg_info
+[3.135s] creating haegeum_interfaces.egg-info
+[3.141s] [  2%] Built target haegeum_interfaces__rosidl_generator_type_description
+[3.147s] writing haegeum_interfaces.egg-info/PKG-INFO
+[3.147s] writing dependency_links to haegeum_interfaces.egg-info/dependency_links.txt
+[3.147s] writing top-level names to haegeum_interfaces.egg-info/top_level.txt
+[3.148s] writing manifest file 'haegeum_interfaces.egg-info/SOURCES.txt'
+[3.150s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.156s] [  4%] Built target haegeum_interfaces__rs
+[3.159s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.181s] reading manifest file 'haegeum_interfaces.egg-info/SOURCES.txt'
+[3.181s] writing manifest file 'haegeum_interfaces.egg-info/SOURCES.txt'
+[3.208s] [  5%] Built target ament_cmake_python_build_haegeum_interfaces_egg
+[3.395s] [  5%] Built target haegeum_interfaces__cpp
+[3.456s] [ 16%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/robot_status__functions.c.o[0m
+[3.456s] [ 16%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/event__type_support.c.o[0m
+[3.456s] [ 16%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/robot_status__description.c.o[0m
+[3.456s] [ 18%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/assignment__type_support.c.o[0m
+[3.456s] [ 16%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/assignment__description.c.o[0m
+[3.456s] [ 16%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/robot_status__type_support.c.o[0m
+[3.456s] [ 16%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/battlefield_state__functions.c.o[0m
+[3.456s] [ 16%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/battlefield_state__description.c.o[0m
+[3.456s] [ 22%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/assignment__functions.c.o[0m
+[3.456s] [ 16%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/target__type_support.c.o[0m
+[3.456s] [ 22%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/target__description.c.o[0m
+[3.456s] [ 22%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/event__functions.c.o[0m
+[3.457s] [ 22%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/target__functions.c.o[0m
+[3.457s] [ 25%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/event__description.c.o[0m
+[3.457s] [ 25%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_c.dir/rosidl_generator_c/haegeum_interfaces/msg/detail/battlefield_state__type_support.c.o[0m
+[3.510s] [ 26%] [32m[1mLinking C shared library libhaegeum_interfaces__rosidl_generator_c.so[0m
+[3.551s] [ 26%] Built target haegeum_interfaces__rosidl_generator_c
+[3.561s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.561s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.561s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.561s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.562s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.562s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.759s] [ 41%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/haegeum_interfaces/msg/battlefield_state__type_support.cpp.o[0m
+[3.759s] [ 41%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/haegeum_interfaces/msg/assignment__type_support.cpp.o[0m
+[3.759s] [ 41%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/haegeum_interfaces/msg/target__type_support.cpp.o[0m
+[3.760s] [ 41%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/haegeum_interfaces/msg/robot_status__type_support.cpp.o[0m
+[3.761s] [ 41%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/haegeum_interfaces/msg/event__type_support.cpp.o[0m
+[3.763s] [ 45%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/haegeum_interfaces/msg/assignment__type_support.cpp.o[0m
+[3.763s] [ 45%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/haegeum_interfaces/msg/target__type_support.cpp.o[0m
+[3.763s] [ 45%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/haegeum_interfaces/msg/robot_status__type_support.cpp.o[0m
+[3.763s] [ 46%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/haegeum_interfaces/msg/battlefield_state__type_support.cpp.o[0m
+[3.764s] [ 48%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/haegeum_interfaces/msg/event__type_support.cpp.o[0m
+[3.825s] [ 57%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/target__type_support.c.o[0m
+[3.825s] [ 57%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/haegeum_interfaces/msg/detail/event__type_support.cpp.o[0m
+[3.825s] [ 57%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/haegeum_interfaces/msg/detail/robot_status__type_support.cpp.o[0m
+[3.825s] [ 57%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/haegeum_interfaces/msg/detail/assignment__type_support.cpp.o[0m
+[3.825s] [ 57%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/haegeum_interfaces/msg/detail/target__type_support.cpp.o[0m
+[3.825s] [ 57%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/assignment__type_support.c.o[0m
+[3.826s] [ 57%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/event__type_support.c.o[0m
+[3.826s] [ 58%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/robot_status__type_support.c.o[0m
+[3.826s] [ 60%] [32m[1mLinking CXX shared library libhaegeum_interfaces__rosidl_typesupport_c.so[0m
+[3.875s] [ 60%] Built target haegeum_interfaces__rosidl_typesupport_c
+[3.885s] [ 62%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/haegeum_interfaces/msg/detail/battlefield_state__type_support.cpp.o[0m
+[3.885s] [ 62%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/haegeum_interfaces/msg/detail/battlefield_state__type_support.c.o[0m
+[3.929s] [ 65%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/haegeum_interfaces/msg/detail/dds_fastrtps/assignment__type_support.cpp.o[0m
+[3.929s] [ 65%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/haegeum_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[3.929s] [ 66%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/haegeum_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[3.936s] [ 68%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/haegeum_interfaces/msg/detail/dds_fastrtps/event__type_support.cpp.o[0m
+[3.942s] [ 69%] [32m[1mLinking C shared library libhaegeum_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.945s] [ 70%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/haegeum_interfaces/msg/detail/robot_status__type_support_c.cpp.o[0m
+[4.009s] [ 70%] Built target haegeum_interfaces__rosidl_typesupport_introspection_c
+[4.027s] [ 72%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/haegeum_interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[4.099s] [ 74%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/haegeum_interfaces/msg/detail/dds_fastrtps/battlefield_state__type_support.cpp.o[0m
+[4.099s] [ 74%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/haegeum_interfaces/msg/detail/assignment__type_support_c.cpp.o[0m
+[4.105s] [ 76%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/haegeum_interfaces/msg/detail/event__type_support_c.cpp.o[0m
+[4.117s] [ 77%] [32mBuilding CXX object CMakeFiles/haegeum_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/haegeum_interfaces/msg/detail/battlefield_state__type_support_c.cpp.o[0m
+[4.147s] [ 78%] [32m[1mLinking CXX shared library libhaegeum_interfaces__rosidl_typesupport_cpp.so[0m
+[4.206s] [ 78%] Built target haegeum_interfaces__rosidl_typesupport_cpp
+[4.305s] [ 80%] [32m[1mLinking CXX shared library libhaegeum_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.424s] [ 80%] Built target haegeum_interfaces__rosidl_typesupport_introspection_cpp
+[4.523s] [ 81%] [32m[1mLinking CXX shared library libhaegeum_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.588s] [ 81%] Built target haegeum_interfaces__rosidl_typesupport_fastrtps_c
+[4.604s] [ 82%] [32m[1mLinking CXX shared library libhaegeum_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.665s] [ 82%] Built target haegeum_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.685s] [ 82%] Built target haegeum_interfaces
+[4.704s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.006s] [ 84%] Built target haegeum_interfaces__py
+[5.027s] [ 90%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_py.dir/rosidl_generator_py/haegeum_interfaces/msg/_target_s.c.o[0m
+[5.027s] [ 90%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_py.dir/rosidl_generator_py/haegeum_interfaces/msg/_robot_status_s.c.o[0m
+[5.027s] [ 90%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_py.dir/rosidl_generator_py/haegeum_interfaces/msg/_event_s.c.o[0m
+[5.027s] [ 90%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_py.dir/rosidl_generator_py/haegeum_interfaces/msg/_battlefield_state_s.c.o[0m
+[5.027s] [ 90%] [32mBuilding C object CMakeFiles/haegeum_interfaces__rosidl_generator_py.dir/rosidl_generator_py/haegeum_interfaces/msg/_assignment_s.c.o[0m
+[5.141s] [ 92%] [32m[1mLinking C shared library libhaegeum_interfaces__rosidl_generator_py.so[0m
+[5.185s] [ 92%] Built target haegeum_interfaces__rosidl_generator_py
+[5.204s] [ 96%] [32mBuilding C object CMakeFiles/haegeum_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/haegeum_interfaces/_haegeum_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.204s] [ 96%] [32mBuilding C object CMakeFiles/haegeum_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/haegeum_interfaces/_haegeum_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.204s] [ 96%] [32mBuilding C object CMakeFiles/haegeum_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/haegeum_interfaces/_haegeum_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.280s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_c.so[0m
+[5.281s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.287s] [100%] [32m[1mLinking C shared module rosidl_generator_py/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.309s] [100%] Built target haegeum_interfaces_s__rosidl_typesupport_c
+[5.309s] [100%] Built target haegeum_interfaces_s__rosidl_typesupport_introspection_c
+[5.317s] [100%] Built target haegeum_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.328s] Invoked command in '/home/kimseohee/haegeum_ws/build/haegeum_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kimseohee/haegeum_ws/build/haegeum_interfaces -- -j16 -l16
+[5.330s] Invoking command in '/home/kimseohee/haegeum_ws/build/haegeum_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kimseohee/haegeum_ws/build/haegeum_interfaces
+[5.338s] -- Install configuration: ""
+[5.338s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/ament_index/resource_index/rosidl_interfaces/haegeum_interfaces
+[5.338s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/RobotStatus.json
+[5.338s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/Target.json
+[5.338s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/Assignment.json
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/Event.json
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/BattlefieldState.json
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__description.c
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__description.c
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__description.c
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__struct.h
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__functions.h
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__struct.h
+[5.339s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__description.c
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__functions.c
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__type_support.c
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__functions.c
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__type_support.h
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__struct.h
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__functions.c
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__type_support.c
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__type_support.h
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__struct.h
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__struct.h
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__functions.h
+[5.340s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__type_support.c
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__type_support.h
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__functions.c
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__type_support.c
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__functions.h
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__type_support.h
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__description.c
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__functions.h
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__functions.h
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__type_support.h
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__functions.c
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__type_support.c
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/robot_status.h
+[5.341s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/event.h
+[5.342s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/assignment.h
+[5.342s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/target.h
+[5.342s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/battlefield_state.h
+[5.342s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/environment/library_path.sh
+[5.342s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/environment/library_path.dsv
+[5.342s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_generator_c.so
+[5.342s] -- Set non-toolchain portion of runtime path of "/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_generator_c.so" to ""
+[5.342s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces
+[5.342s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg
+[5.343s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail
+[5.343s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__rosidl_typesupport_fastrtps_c.h
+[5.343s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__rosidl_typesupport_fastrtps_c.h
+[5.343s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__rosidl_typesupport_fastrtps_c.h
+[5.343s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[5.343s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[5.343s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.343s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.343s] -- Set non-toolchain portion of runtime path of "/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.343s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces
+[5.343s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg
+[5.344s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail
+[5.344s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[5.344s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__rosidl_typesupport_introspection_c.h
+[5.344s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__type_support.c
+[5.344s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__type_support.c
+[5.344s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__rosidl_typesupport_introspection_c.h
+[5.344s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__type_support.c
+[5.344s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__type_support.c
+[5.344s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__rosidl_typesupport_introspection_c.h
+[5.344s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[5.344s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__type_support.c
+[5.344s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.344s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_introspection_c.so
+[5.344s] -- Set non-toolchain portion of runtime path of "/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.344s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_c.so
+[5.345s] -- Set non-toolchain portion of runtime path of "/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_c.so" to ""
+[5.345s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces
+[5.345s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg
+[5.345s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail
+[5.345s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__traits.hpp
+[5.345s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__traits.hpp
+[5.345s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__type_support.hpp
+[5.345s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__builder.hpp
+[5.345s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__builder.hpp
+[5.345s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__type_support.hpp
+[5.345s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__struct.hpp
+[5.345s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__type_support.hpp
+[5.345s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__struct.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__type_support.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__struct.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__builder.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__traits.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__traits.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__struct.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__builder.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__type_support.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__struct.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__builder.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__traits.hpp
+[5.346s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.347s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/battlefield_state.hpp
+[5.347s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/target.hpp
+[5.347s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/robot_status.hpp
+[5.347s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/assignment.hpp
+[5.347s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/event.hpp
+[5.347s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces
+[5.347s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg
+[5.347s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail
+[5.347s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__rosidl_typesupport_fastrtps_cpp.hpp
+[5.347s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[5.347s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.347s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.347s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/dds_fastrtps
+[5.347s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__rosidl_typesupport_fastrtps_cpp.hpp
+[5.348s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.348s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.348s] -- Set non-toolchain portion of runtime path of "/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.348s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces
+[5.348s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg
+[5.348s] -- Up-to-date: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail
+[5.348s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__rosidl_typesupport_introspection_cpp.hpp
+[5.348s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[5.348s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[5.348s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__type_support.cpp
+[5.348s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/event__type_support.cpp
+[5.349s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/battlefield_state__rosidl_typesupport_introspection_cpp.hpp
+[5.349s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__rosidl_typesupport_introspection_cpp.hpp
+[5.349s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/target__type_support.cpp
+[5.349s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/assignment__type_support.cpp
+[5.349s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/include/haegeum_interfaces/haegeum_interfaces/msg/detail/robot_status__type_support.cpp
+[5.349s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.349s] -- Set non-toolchain portion of runtime path of "/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.349s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_cpp.so
+[5.350s] -- Set non-toolchain portion of runtime path of "/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.350s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/environment/pythonpath.sh
+[5.350s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/environment/pythonpath.dsv
+[5.350s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces-0.0.0-py3.12.egg-info
+[5.350s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.350s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.350s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.350s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.350s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces
+[5.350s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_c.so
+[5.350s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/_haegeum_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.350s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/__init__.py
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/_haegeum_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_target_s.c
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_target.py
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_event.py
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_battlefield_state.py
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_robot_status.py
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/__init__.py
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_assignment.py
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_assignment_s.c
+[5.351s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_battlefield_state_s.c
+[5.352s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_event_s.c
+[5.352s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_robot_status_s.c
+[5.352s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/_haegeum_interfaces_s.ep.rosidl_typesupport_c.c
+[5.352s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.380s] Listing '/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces'...
+[5.380s] Compiling '/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/__init__.py'...
+[5.380s] Listing '/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg'...
+[5.380s] Compiling '/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/__init__.py'...
+[5.380s] Compiling '/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_assignment.py'...
+[5.380s] Compiling '/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_battlefield_state.py'...
+[5.380s] Compiling '/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_event.py'...
+[5.380s] Compiling '/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_robot_status.py'...
+[5.380s] Compiling '/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/msg/_target.py'...
+[5.384s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.385s] -- Set non-toolchain portion of runtime path of "/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.385s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.385s] -- Set non-toolchain portion of runtime path of "/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.386s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_c.so
+[5.386s] -- Set non-toolchain portion of runtime path of "/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/python3.12/site-packages/haegeum_interfaces/haegeum_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.386s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_generator_py.so
+[5.386s] -- Set non-toolchain portion of runtime path of "/home/kimseohee/haegeum_ws/install/haegeum_interfaces/lib/libhaegeum_interfaces__rosidl_generator_py.so" to ""
+[5.386s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/ament_index/resource_index/rust_packages/haegeum_interfaces
+[5.386s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/rust
+[5.386s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/rust/Cargo.toml
+[5.386s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/rust/src
+[5.387s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/rust/src/msg.rs
+[5.387s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/rust/src/msg
+[5.387s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/rust/src/msg/rmw.rs
+[5.387s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/rust/src/lib.rs
+[5.387s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/rust/build.rs
+[5.387s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/RobotStatus.idl
+[5.387s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/Target.idl
+[5.387s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/Assignment.idl
+[5.387s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/Event.idl
+[5.387s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/BattlefieldState.idl
+[5.387s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/RobotStatus.msg
+[5.388s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/Target.msg
+[5.388s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/Assignment.msg
+[5.388s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/Event.msg
+[5.388s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/msg/BattlefieldState.msg
+[5.388s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/ament_index/resource_index/package_run_dependencies/haegeum_interfaces
+[5.388s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/ament_index/resource_index/parent_prefix_path/haegeum_interfaces
+[5.388s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/environment/ament_prefix_path.sh
+[5.388s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/environment/ament_prefix_path.dsv
+[5.388s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/environment/path.sh
+[5.388s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/environment/path.dsv
+[5.389s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/local_setup.bash
+[5.389s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/local_setup.sh
+[5.389s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/local_setup.zsh
+[5.389s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/local_setup.dsv
+[5.389s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/package.dsv
+[5.389s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/ament_index/resource_index/packages/haegeum_interfaces
+[5.389s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/export_haegeum_interfaces__rosidl_generator_cExport.cmake
+[5.389s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/export_haegeum_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.389s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/export_haegeum_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.390s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/export_haegeum_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.390s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/haegeum_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.390s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/haegeum_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.390s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/haegeum_interfaces__rosidl_typesupport_cExport.cmake
+[5.390s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/haegeum_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.390s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/export_haegeum_interfaces__rosidl_generator_cppExport.cmake
+[5.390s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/export_haegeum_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.390s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/export_haegeum_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.390s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/haegeum_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.391s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/haegeum_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.391s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/haegeum_interfaces__rosidl_typesupport_cppExport.cmake
+[5.391s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/haegeum_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.391s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/export_haegeum_interfaces__rosidl_generator_pyExport.cmake
+[5.391s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/export_haegeum_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.391s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.391s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.391s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.391s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.391s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.392s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.392s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.392s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[5.392s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/haegeum_interfacesConfig.cmake
+[5.392s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/cmake/haegeum_interfacesConfig-version.cmake
+[5.392s] -- Installing: /home/kimseohee/haegeum_ws/install/haegeum_interfaces/share/haegeum_interfaces/package.xml
+[5.395s] Invoked command in '/home/kimseohee/haegeum_ws/build/haegeum_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kimseohee/haegeum_ws/build/haegeum_interfaces

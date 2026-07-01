@@ -1,0 +1,2 @@
+[console_scripts]
+uav_agent = uav_agent.uav_agent:main
