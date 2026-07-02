@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'ugv_agent'
+package_name = 'target_generator'
 
 setup(
     name=package_name,
@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='kimseohee',
-    maintainer_email='kimseohee@todo.todo',
+    maintainer_email='kimseoh15@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'ugv_agent = ugv_agent.ugv_agent:main',
+            "target_generator = target_generator.target_generator:main",
         ],
     },
 )

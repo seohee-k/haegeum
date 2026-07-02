@@ -11,6 +11,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotStatus.msg"
   "msg/Target.msg"
   "msg/Assignment.msg"
+  "msg/TargetDetected.msg"
   "msg/Event.msg"
   "msg/BattlefieldState.msg"
 

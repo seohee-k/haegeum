@@ -1,28 +1,39 @@
-import math
+from haegeum_interfaces.msg import Assignment
+
+from ai_commander.decision_engine import DecisionEngine
 
 
 class Allocator:
 
-    def allocate(self, robots, target):
+    def __init__(self, battle_manager):
 
-        best_robot = None
-        best_distance = 999999999
+        self.battle_manager = battle_manager
 
-        for robot in robots:
+        self.engine = DecisionEngine()
 
-            dx = robot.pose.position.x - target.position.x
-            dy = robot.pose.position.y - target.position.y
-            dz = robot.pose.position.z - target.position.z
+    def allocate(self, target):
 
-            distance = math.sqrt(
-                dx * dx +
-                dy * dy +
-                dz * dz
-            )
+        robots = self.battle_manager.get_friendlies()
 
-            if distance < best_distance:
+        if len(robots) == 0:
+            return None
 
-                best_distance = distance
-                best_robot = robot
+        robot = self.engine.select_best_robot(
+            robots,
+            target
+        )
 
-        return best_robot
+        if robot is None:
+            return None
+
+        assignment = Assignment()
+
+        assignment.target_id = target.target_id
+
+        assignment.assigned_robot = robot.robot_id
+
+        assignment.mission_type = "INTERCEPT"
+
+        assignment.target_position = target.position
+
+        return assignment
