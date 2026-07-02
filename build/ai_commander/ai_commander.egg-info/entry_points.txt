@@ -1,2 +1,0 @@
-[console_scripts]
-ai_commander = ai_commander.ai_commander:main
